@@ -26,22 +26,55 @@
      
      var x=5
      var y=5
-     
-     const operaciones={suma,resta,multiplicacion,division};
+     console.log('los variables son : '+ x + ' y ' + y + ' y su resultado de las operaciones son:');
+     console.log('Suma :'+ (x+y));
+     console.log('resta :'+ (x-y));
+     console.log('multiplicacion :'+ (x*y));
+     console.log('divicion :'+ (x/y));
 
-       suma = operaciones.suma(x+y);
-       resta = operaciones.resta(x-y)
-       multiplicacion = operaciones.multiplicacion(x*y);
-       division = operaciones.division(x/y);
-
-       
-     
-
-     console.log('Suma :'+ operaciones.suma);
 
      
 
 </script>
+
+<Script>
+    
+//*Punto 3: Declarar dos variables con la palabra reservada "let", imprimir la concatenación de ellas.
+let a= "buenos";
+let b= "Dias";
+console.log(" concatenacion de variables let: ");
+console.log(a+" "+b);
+</Script>
+
+<Script>
+//*Punto 4: Declarar dos variables con la palabra reservada "const", imprimir cuál es el tipo de dato de esa variable.
+const var1 = 20;
+const var2 = "Que tal";
+
+console.log("los Variables son: "+ var1+" y "+ var2);
+console.log(typeof var1);
+console.log(typeof var2);
+
+</Script>
+
+<Script>
+/*Punto 5: Declarar una variable tipo Objeto, colocar 4 llaves dentro de él que contengan un number, 
+un string, un booleano y un objeto vacío, en ese mismo orden*/
+
+var dato = new Object();
+dato.numero=10;
+dato.cadena="hola";
+dato.booleano=false;
+dato.vacio={};
+
+console.log(dato)
+</Script>
+
+<Script>
+/*Punto 6: Escribir una función en JS que tome un número entero positivo como argumento y devuelva 
+la suma de todos los números menores que sean múltiplos de 3 o 5. Por ejemplo: Si el número dado es 10, 
+la función debería devolver la suma de 3, 5, 6 y 9, que es 23. */
+</Script>
 
 </body>
 </html>
